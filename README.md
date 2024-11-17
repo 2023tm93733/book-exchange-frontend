@@ -1,48 +1,56 @@
-# Book Swap - Connect and Exchange Books
+# Frontend: Book Exchange Platform - Discover, Connect, and Exchange Books
 
-Book Swap is a web application that allows users to connect with others and exchange books. The platform provides a convenient way for book enthusiasts to share their collections and find books they're interested in.
+Book Exchange is a user-friendly web application built to connect book enthusiasts and streamline the process of discovering, sharing, and exchanging books.
 
 ## Features
 
-- Landing Page: A welcoming landing page with an about section and a contact form to get in touch with the team.
-- Authentication: Users can register and log in securely using Firebase Authentication.
-- Bookstore: Access to the bookstore is restricted to authenticated users. Unauthorized access displays an error message.
-- Book Listings: Browse through a diverse collection of books listed by other users in the bookstore.
-- Book Details: Click on a book to view its details, including information fetched from the Google Books API. Users can also see the book's lister and send them a direct email for exchange inquiries.
-- User Profiles: Explore user profiles to see all the books they have listed for exchange and their contact information.
-- Search Functionality: Utilize the search bar to filter books by name or author, making it easier to find specific titles.
-- Profile Management: Users can manage their profiles, update their contact details, and more.
-- Book Exchange: List books for exchange within the bookstore, allowing other users to see and express interest in your listings.
+### Landing Page
+- A welcoming homepage featuring the platform’s purpose and a contact form for user feedback and queries.
+
+### Authentication
+- Secure user registration and login with Firebase Authentication.
+
+### Bookstore
+- Browse an extensive collection of user-listed books.
+- Restricted access for authenticated users, with unauthorized access showing appropriate error messages.
+
+### Book Details
+- View detailed information about books, including metadata fetched from the Google Books API.
+- Contact book listers via direct email for exchange inquiries.
+
+### User Profiles
+- Explore other users’ profiles to see their book listings and contact details.
+- Manage your profile information, including updating contact details.
+
+### Search and Filter
+- Use a search bar to filter books by title or author for quick discovery.
+
+### Responsive Design
+- Built using Tailwind CSS to ensure seamless responsiveness across devices.
 
 ## Tech Stack
+- **Angular**: Framework for building dynamic and scalable web applications.
+- **TypeScript**: Enhances code robustness with type safety and better tooling.
+- **Tailwind CSS**: Simplifies styling with a utility-first approach.
 
-**Angular:** The core framework for building the web application.
+## Setup and Installation
 
-**Typescript:** A typed superset of JavaScript used for building robust applications.
+1. **Clone the repository:**
+  ```bash
+  git clone https://github.com/<your-repo>/book-exchange-frontend.git
+  ```
 
-**Tailwind CSS:** A utility-first CSS framework that simplifies styling and enhances responsiveness.
+2. **Navigate to the project directory:**
+  ```bash
+  cd book-exchange-frontend
+  ```
 
-## Installation
+3. **Install dependencies:**
+  ```bash
+  npm install
+  ```
 
-1. Clone the Repository:
-
-```bash
-git clone https://github.com/rishabh1S/BookSwap.git
-```
-
-2. Navigate to the project directory
-
-```bash
-cd book-swap
-```
-
-3. Install Dependencies:
-
-```bash
-npm install
-```
-
-4. Start the Development Server
-
-```bash
-ng serve
+4. **Run the development server:**
+  ```bash
+  ng serve
+  ```
